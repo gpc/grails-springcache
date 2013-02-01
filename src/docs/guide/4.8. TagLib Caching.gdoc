@@ -1,4 +1,4 @@
-An alternative to using includes for caching smaller page fragments is to use caching on taglib tags. When a cacheable tag is called, the parameters it is called with from the cache key. If there is no entry in the cache, the tag is executed and the output that it generated is cached (as well as being written to the page). If there is an entry in the cache, the tag is not executed and the cached output is written to the page. 
+An alternative to using includes for caching smaller page fragments is to use caching on taglib tags. When a cacheable tag is called, the parameters it is called with form the cache key. If there is no entry in the cache, the tag is executed and the output that it generated is cached (as well as being written to the page). If there is an entry in the cache, the tag is not executed and the cached output is written to the page. 
 
 {code}
 class BlogArticlesTagLib {
